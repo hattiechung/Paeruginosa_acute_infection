@@ -11,6 +11,9 @@ Contains all drugs administered to the patient in the ICU. Patients 45/E and 46/
 Contains the sputum or stool sample day, relative to day 1.
 
 ## Data directories
+### patient_trees 
+Contains maximum parsimony phylogeny for each patient 
+
 ### phylogeny_matrix
 Contains a matrix of within-patient calls (SNPs and indels) for each patient used to construct the maximum parsimony tree for each patient.
 
@@ -18,6 +21,9 @@ Contains a matrix of within-patient calls (SNPs and indels) for each patient use
 Contains raw MIC data for all 420 Pseudomonas aeruginosa isolates sequenced on the Illumina platform, measured on the Vitek machine at the clinical microbiology lab of Boston Children's Hospital. 
 #### MIC_data/CLINICAL_MICs.csv 
 Contains clinical MIC data used for measuring antibiotic resistance during the acute infection, using a single or handful of clinical isolates that were collected by clinical staff (and not sequenced for this study)
+
+### reference_genomes
+Contains fasta and genbank file corresponding to each patient-specific reference genome. Patient reference genomes were constructed from PacBio long-read sequencing of a single isolate from day 1. The genbank files in this directory were used for all analyses in the paper. Fasta file and NCBI annotated versions of all reference genomes are found at Sequence Read Archive PRJNA638217 (https://www.ncbi.nlm.nih.gov/bioproject/PRJNA638217).
 
 ## Code 
 #### dMRCA_analysis.ipynb 
