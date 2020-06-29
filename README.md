@@ -16,7 +16,8 @@ Contains a matrix of within-patient calls (SNPs and indels) for each patient use
 
 ### MIC_data
 Contains raw MIC data for all 420 Pseudomonas aeruginosa isolates sequenced on the Illumina platform, measured on the Vitek machine at the clinical microbiology lab of Boston Children's Hospital. 
-#### MIC_data/CLINICAL_MICs.csv contains clinical MIC data used for measuring antibiotic resistance during the acute infection, using a single or handful of clinical isolates that were collected by clinical staff (and not sequenced for this study)
+#### MIC_data/CLINICAL_MICs.csv 
+Contains clinical MIC data used for measuring antibiotic resistance during the acute infection, using a single or handful of clinical isolates that were collected by clinical staff (and not sequenced for this study)
 
 ## Code 
 #### dMRCA_analysis.ipynb 
