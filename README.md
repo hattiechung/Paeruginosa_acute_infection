@@ -25,6 +25,8 @@ Contains clinical MIC data used for measuring antibiotic resistance during the a
 ### reference_genomes
 Contains fasta and genbank file corresponding to each patient-specific reference genome. Patient reference genomes were constructed from PacBio long-read sequencing of a single isolate from day 1. The genbank files in this directory were used for all analyses in the paper. Fasta file and NCBI annotated versions of all reference genomes are found at Sequence Read Archive PRJNA638217 (https://www.ncbi.nlm.nih.gov/bioproject/PRJNA638217).
 
+### Whole genome sequencing of 420 Pseudomonas aeruginosa isolates using Illumina sequencing are available at https://dataview.ncbi.nlm.nih.gov/object/PRJNA622605
+
 ## Code 
 #### dMRCA_analysis.ipynb 
 Code for the d_MRCA analysis (Fig. 3a), including the null model. 
